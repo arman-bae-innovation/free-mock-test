@@ -126,3 +126,102 @@ align-items: center;
 justify-content: center;
 text-decoration: none;
 }
+.part-top{
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+}
+.part-middle{
+    height: 2vh;
+}
+.part-bottom{
+    height:55vh;
+    overflow:auto;
+}
+
+
+/* highlight start  */
+
+        .highlight {
+            background-color: yellow; /* Highlight color */
+        }
+
+        /* Context menu styling */
+        #contextMenu {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 5px;
+            display: none;
+            z-index: 9999;
+        }
+
+        #contextMenu button {
+            display: block;
+            width: 100%;
+            padding: 5px;
+            text-align: left;
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+
+        #contextMenu button:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Notes section styling */
+        #notesSection {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        #notesSection h3 {
+            margin-top: 0;
+        }
+
+        .note {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        .note .note-text {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .note .comment-input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .note .comment-button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .note .comment-button:hover {
+            background-color: #0056b3;
+        }
+
+        .note .comments {
+            margin-top: 10px;
+        }
+
+        .note .comment {
+            padding: 5px;
+            border-bottom: 1px solid #eee;
+            background-color: #ffffffb7;
+        }
+
+/* highlight end  */
